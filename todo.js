@@ -1,4 +1,3 @@
-
 const toDoForm = document.querySelector(".js-todo-form"),
   toDoInput = toDoForm.querySelector("input"),
   pendingList = document.querySelector(".js-pending"),
