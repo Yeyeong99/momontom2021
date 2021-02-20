@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "RIDIBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+::after,
+::before {
+  font-family: "RIDIBatang";
+  color: aliceblue;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 2px #0d2640;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d2640;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 20px 30px 10px 30px;
+}
+
+input {
+  border-style: hidden;
+  background-color: transparent;
+  border-bottom: #ffffff 1px solid;
+}
+
+input:focus {
+  outline: none;
+  text-shadow: #0d2640;
+}
+
+input::placeholder {
+  color: aliceblue;
+}
+
+image {
+  height: 100vh;
+  object-fit: cover;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.js-name-form {
+  margin-bottom: 20px;
+}
+
+.js-name-form > input {
+  font-size: 1.5rem;
+}
+
+.js-todo-form > input {
+  font-size: 1.25rem;
+}
+
+.js-weather {
+  font-size: 1.2rem;
+}
+
+.js-todo {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}

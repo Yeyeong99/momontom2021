@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Momontom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="js-clock">
+        <h1>00:00:00</h1>
+    </div>
+    <form class="js-name-form">
+        <input type="text" placeholder="Type your name">
+    </form>
+    <h2 class="js-greeting"></h2>
+    <h2>Task</h2>
+    <form class="js-todo-form">
+        <input type="text" placeholder="Write a to do" />
+    </form>
+    <div class="js-todo">
+        <div class="pending">
+            <h3>Pending</h3>
+            <ul class="js-pending"></ul>
+        </div>
+        <div class="finished">
+            <h3>Finished</h3>
+            <ul class="js-finished"></ul>
+
+        </div>
+    </div>
+    <span class="js-weather"></span>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
